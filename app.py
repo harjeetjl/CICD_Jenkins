@@ -2,12 +2,19 @@ from flask import Flask, jsonify, request
 from pymongo import MongoClient
 from bson import ObjectId
 from bson.regex import Regex
+from flask_cors import CORS
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 # Initialize Flask app
 app = Flask(__name__)
+CORS(app)
 
 # Connect to MongoDB
-client = MongoClient("mongodb+srv://mohan:herovired@herovired.f3do4.mongodb.net/")  # Replace with your MongoDB URI
+MONGO_URI = os.getenv("MONGO_URI")
+client = MongoClient(MONGO_URI)  # Replace with your MongoDB URI
 db = client["student_db"]  # Database name
 students_collection = db["students"]  # Collection name
 
