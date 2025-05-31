@@ -130,15 +130,16 @@ Configure email under Jenkins > Manage Jenkins > Configure System.
 
 ## Screnshots
 1. Jenkins Success
-
+![Screenshot 2025-05-31 183522](https://github.com/user-attachments/assets/c4a19ac6-9721-4b67-a562-7aa941e5a58e)
 
 2. Pipeline Log
-
+![Screenshot 2025-05-31 183701](https://github.com/user-attachments/assets/21c00e17-76bb-4ba2-ae64-0031e3cc8344)
 
 3. Stages Overview
-
+![Screenshot 2025-05-31 183857](https://github.com/user-attachments/assets/f9e916bf-e31a-42ff-a57f-3ed44fe25d40)
 
 4. Mail Triggers (Success and Failure)
-
+![Screenshot 2025-05-31 184611](https://github.com/user-attachments/assets/2aeb2602-985c-4d57-83d4-fe893b59ed10)
+![Screenshot 2025-05-31 184505](https://github.com/user-attachments/assets/db0fa60e-c179-4c35-aded-2c2c65bf0dff)
 
 ---
